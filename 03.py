@@ -1,8 +1,5 @@
 from aoc import get_input
-from collections import Counter, defaultdict
-from itertools import batched, cycle
-from re import compile, finditer, MULTILINE
-from typing import Any, Optional, Union
+from re import compile
 
 data = get_input(3)
 
