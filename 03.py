@@ -20,7 +20,7 @@ for match in pattern.finditer(data):
     a, b = map(int, match.groups())
     part1 += a * b
 
-for match in pattern.finditer(''.join(parts)):
+for match in pattern.finditer("".join(parts)):
     a, b = map(int, match.groups())
     part2 += a * b
 
